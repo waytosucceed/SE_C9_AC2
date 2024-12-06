@@ -1,0 +1,167 @@
+[
+    {
+        "questionNo": "Q1",
+        "question": "Add the fractions:<br><img width='90%' src='./assests/images/1.png'>",
+        "options": [
+            "./optionImg/17.jpg",
+            "./optionImg/18.jpg",
+            "./optionImg/19.jpg",
+            "./optionImg/20.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q2",
+        "question": "Simplify the sum:<br><img width='90%' src='./assests/images/2.png'>",
+        "options": [
+            "./optionImg/21.jpg",
+            "./optionImg/22.jpg",
+            "./optionImg/23.jpg",
+            "./optionImg/24.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q3",
+        "question": "Choose the correct option after performing the operations on the given modelled fractions.<br><img width='90%' src='./assests/images/3.png'>",
+        "options": [
+            "./optionImg/25.jpg",
+            "./optionImg/26.jpg",
+            "./optionImg/27.jpg",
+            "./optionImg/28.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q4",
+        "question": "Solve:<br><img width='90%' src='./assests/images/4.png'>",
+        "options": [
+            "./optionImg/29.jpg",
+            "./optionImg/30.jpg",
+            "./optionImg/31.jpg",
+            "./optionImg/32.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q5",
+        "question": "From the given fractions below, what is the sum of the like fractions?<br><img width='90%' src='./assests/images/5.png'>",
+        "options": [
+            "./optionImg/33.jpg",
+            "./optionImg/34.jpg",
+            "./optionImg/35.jpg",
+            "./optionImg/36.jpg"
+        ],
+        "correct": 3
+    },
+    {
+        "questionNo": "Q6",
+        "question": "Solve the following:<br><img width='90%' src='./assests/images/6.png'>",
+        "options": [
+            "./optionImg/37.jpg",
+            "./optionImg/38.jpg",
+            "./optionImg/39.jpg",
+            "./optionImg/40.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q7",
+        "question": "Choose the correct option after performing the operations on the given modelled fractions.<br><img width='90%' src='./assests/images/7.png'>",
+        "options": [
+            "./optionImg/41.jpg",
+            "./optionImg/42.jpg",
+            "./optionImg/43.jpg",
+            "./optionImg/44.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q8",
+        "question": "Calculate :<br><img width='90%' src='./assests/images/8.png'>",
+        "options": [
+            "./optionImg/45.jpg",
+            "./optionImg/46.jpg",
+            "./optionImg/47.jpg",
+            "./optionImg/48.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q9",
+        "question": "Choose the correct option after performing the operations on the given modelled fractions.<br><img width='90%' src='./assests/images/9.png'>",
+        "options": [
+            "./optionImg/49.jpg",
+            "./optionImg/50.jpg",
+            "./optionImg/51.jpg",
+            "./optionImg/52.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q10",
+        "question": "Solve the following:<br><img width='90%' src='./assests/images/10.png'>",
+        "options": [
+            "./optionImg/53.jpg",
+            "./optionImg/54.jpg",
+            "./optionImg/55.jpg",
+            "./optionImg/56.jpg"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q11",
+        "question": "Calculate <br><img width='90%' src='./assests/images/11.png'>:",
+        "options": [
+            "./optionImg/57.jpg",
+            "./optionImg/58.jpg",
+            "./optionImg/59.jpg",
+            "./optionImg/60.jpg"
+        ],
+        "correct": 3
+    },
+    {
+        "questionNo": "Q12",
+        "question": "From the given fractions below, what is the sum of the unlike fractions?<br><img width='90%' src='./assests/images/12.png'>",
+        "options": [
+            "./optionImg/61.jpg",
+            "./optionImg/62.jpg",
+            "./optionImg/63.jpg",
+            "./optionImg/64.jpg"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q13",
+        "question": "Calculate :<br><img width='90%' src='./assests/images/13.png'> ",
+        "options": [
+            "./optionImg/65.jpg",
+            "./optionImg/66.jpg",
+            "./optionImg/67.jpg",
+            "./optionImg/68.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q14",
+        "question": " Solve :<br><img width='90%' src='./assests/images/14.png'>",
+        "options": [
+            "./optionImg/69.jpg",
+            "./optionImg/70.jpg",
+            "./optionImg/71.jpg",
+            "./optionImg/72.jpg"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q15",
+        "question": " Solve :<br><img width='90%' src='./assests/images/15.png'>",
+        "options": [
+            "./optionImg/73.jpg",
+            "./optionImg/74.jpg",
+            "./optionImg/75.jpg",
+            "./optionImg/76.jpg"
+        ],
+        "correct": 2
+    }
+]

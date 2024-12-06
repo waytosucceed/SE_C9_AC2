@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Addition of Fractions</div>
+
+        
+          <div>
+            <h2>Adding Fractions with the Same Denominator :</h2>
+            <p>
+              When fractions have the same denominator, you can simply add the numerators and keep the denominator the same.
+              <BR><B>Example 1</B>: <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 + 5</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h2>Adding Fractions with Different Denominators :</h2>
+            <p> When denominators are different, you need a common denominator.
+              <br> <br><b>Steps:</b>
+            </p>
+            <ol>
+              <li>Find the Least Common Multiple (LCM): The smallest number that is the multiple of both denominators</li>
+              <li>Conversion to Equivalent Fraction: Multiply numerator and denominator of both fraction with a number will make the denominators same</li>
+              <li>Addion: Now when the denominators are same, add the Numerators</li>
+              <li>Simplify the Result if Possible.</li>
+            </ol>
+            <p><b>Example:</b> Add <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math></p>
+            <p><b>Step 1 :</b> Find the LCM of 4 and 5, which is 20.<br>
+              <b>Step 2 :</b> Convert fractions: <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>3 × 5</mi></msup></mfrac><mfrac><msup><mi>4 × 5</mi></msup></mfrac></mfrac></math> =<math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math>, <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 × 4</mi></msup></mfrac><mfrac><msup><mi>5 × 4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math><br>
+              <b>Step 3 :</b> Add numerators : <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> + <math><mfrac bevelled="true"><mfrac><msup><mi>8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>15 + 8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>23</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> .<br>
+              <b>Step 4 :</b> Simplify if it's not in lowest form: Here <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> is already in lowest form so answer is<math><mfrac bevelled="true"><mfrac><msup><mi>23</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> or 1<math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h2>Subtraction of Fractions </h2>
+            <p>Subtraction works the same way as addition, but you subtract the numerators instead.
+              <br><br>
+              <b>Subtracting Fractions with the Same Denominator :</b> When fractions have the same denominator, you can simply subtract the numerators and keep the denominator the same.
+              <br><b>Example 1:</b><br>
+              <math><mfrac bevelled="true"><mfrac><msup><mi>5</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> - <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>5 - 3</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>9</mi></msup></mfrac></mfrac></math><br><br>
+              <b>Subtracting Fractions with Different Denominators :</b> When denominators are different, you need a common denominator.<br>
+              <b>Steps:</b>
+            </p>
+            <ol>
+              <li>Find the Least Common Multiple (LCM): The smallest number that is the multiple of both denominators</li>
+              <li>Conversion to Equivalent Fraction: Multiply numerator and denominator of both fraction with a number will make the denominators same</li>
+              <li>Subtraction: Now when the denominators are same, subtract the Numerators</li>
+              <li>Simplify the Result if Possible.</li>
+            </ol>
+            <p>
+              <b>Example:</b> Solve <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> - <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math>
+              <br><b>Step 1 :</b> Find the LCM of 4 and 5, which is 20.
+              <br><b>Step 2 :</b> Convert fractions: <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>3 5</mi></msup></mfrac><mfrac><msup><mi>4 × 5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math>, <math><mfrac bevelled="true"><mfrac><msup><mi>2</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>2 × 4</mi></msup></mfrac><mfrac><msup><mi>5 × 4</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math><br>
+              <br><b>Step 3 :</b> Subtract numerators : <math><mfrac bevelled="true"><mfrac><msup><mi>15</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> - <math><mfrac bevelled="true"><mfrac><msup><mi>8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>15 - 8</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math>
+              <br><b>Step 4 :</b> Simplify : Since it cannot be simplified so answer is <math><mfrac bevelled="true"><mfrac><msup><mi>7</mi></msup></mfrac><mfrac><msup><mi>20</mi></msup></mfrac></mfrac></math>
+            </p>
+            <h2>Butterfly Method for fractions with different denominators :</h2>
+            <p>The Butterfly Method is a simple trick to add or subtract two fractions, especially when fractions can be reduced more or are prime numbers.
+              <BR>It saves the time of finding
+              
+              <br><b>Steps for the Butterfly Method:</b>
+            </p>
+            <ol>
+              <li>Multiply the numerator and Denominator of the first fraction with the denominator of the second fraction and vice versa.</li>
+              <li>Add (or subtract) the results of the cross-multiplications.</li>
+              <li>Simplify the result if possible.</li>
+            </ol>
+            
+            <p>
+              <b>Example 1: Addition</b><br>
+             <img src="./assests/explaination/1.png" width="30%" alt=""><br>
+             <img src="./assests/explaination/2.png" width="30%" alt="">
+            </p>
+            
+            <br><br>
+            <p>
+            <b>Example 2: Subtraction</b><br>
+            <img src="./assests/explaination/3.png" width="30%" alt=""><br>
+            <img src="./assests/explaination/4.png" width="30%" alt="">
+            </p>
+            
+            <p>
+              <b>The Butterfly Method makes fraction addition and subtraction quicker to solve.</b>
+            </p>
+
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
